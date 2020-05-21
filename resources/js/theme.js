@@ -13,11 +13,18 @@ function load() {
   var contentHeader = document.querySelector('.content .h-header');
   contentHeader.prepend(hamburger);
 
+  // Add backdrop to body
+  var backdrop = document.createElement("div");
+  backdrop.className = 'backdrop-menu backdrop-hidden';
+  var pageBody = document.querySelector('body');
+  pageBody.prepend(backdrop);
+
   // Hamburger click event
   hamburger.addEventListener("click", function (e) {
     e.stopPropagation();
     var sidebar = document.querySelector('.w-sidebar');
     sidebar.classList.toggle("sidebar-hidden");
+    backdrop.classList.toggle("backdrop-hidden");
   }, true);
 
   // Sidebar links click event
@@ -26,6 +33,7 @@ function load() {
     sidebarLink.addEventListener("click", function() {
       var sidebar = document.querySelector('.w-sidebar');
       sidebar.classList.add("sidebar-hidden");
+      backdrop.classList.add("backdrop-hidden");
     }, false);
   });
 
@@ -36,6 +44,7 @@ function load() {
       var sidebar = document.querySelector('.w-sidebar');
       if (e.target !== sidebar && !sidebar.contains(e.target)) {
         sidebar.classList.add("sidebar-hidden");
+        backdrop.classList.add("backdrop-hidden");
       }
     });
   });
