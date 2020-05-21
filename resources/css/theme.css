@@ -185,10 +185,10 @@ html[dir="rtl"] .hamburger-menu:before {
     }
 
     html:not([dir="rtl"]) .h-header .dropdown-trigger img.mr-3 {
-        margin-right: 0;
+        /*margin-right: 0;*/
     }
     html[dir="rtl"] .h-header .dropdown-trigger img.mr-3 {
-        margin-left: 0;
+        /*margin-left: 0;*/
     }
 
 
