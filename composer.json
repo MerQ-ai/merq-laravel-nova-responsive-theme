@@ -1,0 +1,39 @@
+{
+    "name": "ghalwash/merqlaravel-nova-theme-responsive",
+    "description": "A Laravel Nova responsive theme.",
+    "type": "library",
+    "homepage": "https://github.com/MerQ-ai/merq-laravel-nova-responsive-theme",
+    "authors": [
+        {
+            "name": "Waleed Ghalwash",
+            "email": "waleed.ghalwash@merq.ai",
+            "homepage": "https://github.com/MerQ-ai",
+            "role": "Developer"
+        }
+    ],
+    "keywords": [
+        "laravel",
+        "nova"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ghalwash\\MerqLaravelNovaThemeResponsive\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ghalwash\\MerqLaravelNovaThemeResponsive\\ThemeServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
