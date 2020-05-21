@@ -81,6 +81,10 @@ html[dir="rtl"] .hamburger-menu:before {
     -webkit-tap-highlight-color: transparent;
 }
 
+.backdrop-hidden {
+    display: none;
+}
+
 @media (min-width: 992px) {
     body.fixed-sidebar .bg-grad-sidebar {
         position: fixed;
@@ -143,8 +147,7 @@ html[dir="rtl"] .hamburger-menu:before {
         padding-top: 1.75rem;
     }
 
-    .sidebar-hidden,
-    .backdrop-hidden {
+    .sidebar-hidden{
         display: none;
     }
 
