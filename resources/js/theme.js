@@ -15,7 +15,7 @@ function load() {
 
   // Add backdrop to body
   var backdrop = document.createElement("div");
-  backdrop.className = 'backdrop-menu backdrop-hidden';
+  backdrop.className = 'backdrop-menu backdrop-hidden bg-80 opacity-75';
   var pageBody = document.querySelector('body');
   pageBody.prepend(backdrop);
 

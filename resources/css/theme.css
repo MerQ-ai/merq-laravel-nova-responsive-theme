@@ -77,7 +77,6 @@ html[dir="rtl"] .hamburger-menu:before {
     position: fixed;
     align-items: center;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.5);
     -webkit-tap-highlight-color: transparent;
 }
 
