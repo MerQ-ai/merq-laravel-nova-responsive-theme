@@ -1,4 +1,6 @@
-# Laravel Nova Responsive Theme
+# MerQ Laravel Nova Responsive Theme
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/ghalwash/merq-laravel-nova-theme-responsive.svg?style=flat-square)](https://packagist.org/packages/ghalwash/merq-laravel-nova-theme-responsive)
+[![Total Downloads](https://img.shields.io/packagist/dt/ghalwash/merq-laravel-nova-theme-responsive.svg?style=flat-square)](https://packagist.org/packages/ghalwash/merq-laravel-nova-theme-responsive)
 
 A simple Laravel Nova theme that add responsiveness to the site.
 
@@ -9,7 +11,7 @@ It can be used as is, or as a base theme to your own ones.
 You can install the nova theme into a Laravel app that uses [Nova](https://nova.laravel.com) via composer:
 
 ```bash
-composer require ghalwash/merq-laravel-nova-responsive-theme
+composer require ghalwash/merq-laravel-nova-theme-responsive
 ```
 
 This theme include some config based options. To use them, first publish the config file:
