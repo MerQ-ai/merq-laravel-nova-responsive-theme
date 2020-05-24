@@ -1,7 +1,7 @@
 # MerQ Laravel Nova Responsive Theme
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/ghalwash/merq-laravel-nova-theme-responsive.svg?style=flat-square)](https://packagist.org/packages/ghalwash/merq-laravel-nova-theme-responsive)
 [![Total Downloads](https://img.shields.io/packagist/dt/ghalwash/merq-laravel-nova-theme-responsive.svg?style=flat-square)](https://packagist.org/packages/ghalwash/merq-laravel-nova-theme-responsive)
-[![Latest Version on Github](https://img.shields.io/github/v/release/MerQ-ai/merq-laravel-nova-responsive-theme.svg?style=flat-square)]
+[![Latest Version on Github](https://img.shields.io/github/v/release/MerQ-ai/merq-laravel-nova-responsive-theme.svg?style=flat-square)](https://github.com/MerQ-ai/merq-laravel-nova-responsive-theme)
 
 A simple Laravel Nova theme that add responsiveness to the site.
 
