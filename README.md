@@ -23,6 +23,16 @@ php artisan vendor:publish --provider="Ghalwash\MerqLaravelNovaThemeResponsive\T
 
 And then you can configure the options editing the `config/merq-nova-theme-responsive.php` file.
 
+## Uninstall
+
+You can remove the nova responsive theme from your Laravel via composer:
+
+```bash
+composer remove ghalwash/merq-laravel-nova-theme-responsive
+```
+
+This will remove the package from vendor directory.
+
 ## Screenshots
 
 Menu | Page | Modal
