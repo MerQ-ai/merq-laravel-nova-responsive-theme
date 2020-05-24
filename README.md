@@ -23,6 +23,25 @@ php artisan vendor:publish --provider="Ghalwash\MerqLaravelNovaThemeResponsive\T
 
 And then you can configure the options editing the `config/merq-nova-theme-responsive.php` file.
 
+## Usage
+
+You can use this theme either:
+
+### A) Adding an stylesheet on your Nova app, and using the provided CSS classes to customize the styles
+
+Make sure you have published the package skeleton stylesheet as mensioned in the installation section:
+
+```bash
+php artisan vendor:publish --provider="Ghalwash\MerqLaravelNovaThemeResponsive\ThemeServiceProvider"
+```
+
+Then, update the stylesheet with your custom styles. The file is located in `resources/css/vendor/merq-laravel-nova-theme-responsive/responsive.css`
+
+### B) Relying on the default theme classes
+
+By removing the file located in `resources/css/vendor/merq-laravel-nova-theme-responsive/responsive.css` now you are tottaly dependent on the default theme style.
+
+
 ## Uninstall
 
 You can remove the nova responsive theme from your Laravel via composer:
